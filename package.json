@@ -1,0 +1,36 @@
+{
+  "name": "vuenodetodolist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./Server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markchan1209/VueNodeTodolist.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markchan1209/VueNodeTodolist/issues"
+  },
+  "homepage": "https://github.com/markchan1209/VueNodeTodolist#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-redis": "^4.0.3",
+    "credential": "^2.0.0",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "joi": "^14.3.1",
+    "lodash": "^4.17.15",
+    "morgan": "^1.9.1",
+    "mysql2": "^1.7.0",
+    "nodemon": "^1.19.3",
+    "redis": "^2.8.0",
+    "sequelize": "^5.19.6",
+    "sequelize-cli": "^5.5.1"
+  }
+}
